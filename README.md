@@ -6,15 +6,13 @@
 The Chorale backend is written in PHP and runs with MariaDB. `master` branch code currently deploys to production servers.
 
 ## Development
-I use Windows 10 with WAMP to test and run my code. I am using VS Code to write it.
 
-TODO:
-- [x] Make sure all code meets the [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md) standard.
-- [ ] Rewrite code so it is clean and readable.
-- [ ] Fix 2FA as it currently outputs a different code than Google Auth and Authy.
-- [ ] Wait for results from [DB StrawPoll](http://www.strawpoll.me/14130030) and then change DB based on results.
-- [ ] Add required endpoints
-- [ ] Anything else
+
+Using WAMP. Workflow to be revised. Current dependencies:
+
+* MariaDB
+* PHP (latest)
+ 
 
 ## Contribute
 
