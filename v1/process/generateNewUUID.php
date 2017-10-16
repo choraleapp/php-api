@@ -2,23 +2,21 @@
 
 //header("Content-type:application/json");
 
-$id = "";
+$id = '';
 
-function generateID() {
+function generateID()
+{
+    $what = ['*'];
+    $table = 'users';
+    $where = ["userID=$id"];
 
-	$what = array("*");
-	$table = "users";
-	$where = array("userID=$id");
-	
-	include '../database/select.php';
-	
-	echo $rows;
+    include '../database/select.php';
 
-	if ($rows > 0) {
-		generateID();
-	} else {
-		echo json_encode($id);		
-	}
+    echo $rows;
+
+    if ($rows > 0) {
+        generateID();
+    } else {
+        echo json_encode($id);
+    }
 }
-
-?>
