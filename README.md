@@ -10,8 +10,9 @@ The Chorale backend is written in PHP and runs with MariaDB. `master` branch cod
 
 Using WAMP. Workflow to be revised. Current dependencies:
 
-* MariaDB
-* PHP (latest)
+* Apache - 2.4.27
+* MariaDB - 10.2.8
+* PHP - 5.6.31
  
 
 ## Contribute
