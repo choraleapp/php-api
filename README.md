@@ -1,4 +1,6 @@
-# Chorale API
+# Chorale PHP API (Deprecated)
+
+**Before the switch to [a Node stack](https://github.com/choraleapp/chorale-api), a former contributor was leading the work on the API. Due to personal reasons, and architectural changes, the work on the API was continued in another repository. All code here is deprecated & not in use.**
 
 [![Join Discord](https://img.shields.io/discord/330694680318574592.svg?style=flat-square)](https://discord.gg/BUbfvsM)
 [![Twitter Follow](https://img.shields.io/twitter/follow/choraleapp.svg?style=social&label=follow)](https://twitter.com/choraleapp)
@@ -7,13 +9,11 @@ The Chorale backend is written in PHP and runs with MariaDB. `master` branch cod
 
 ## Development
 
-
 Using WAMP. Workflow to be revised. Current dependencies:
 
 * Apache - 2.4.27
 * MariaDB - 10.2.8
 * PHP - 5.6.31
- 
 
 ## Contribute
 
